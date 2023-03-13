@@ -1,5 +1,5 @@
-CompilatorMiniC: lex.yy.c y.tab.c
-	gcc -o CompilatorMiniC lex.yy.c y.tab.c -ll	 
+CompilerMiniC: lex.yy.c y.tab.c
+	gcc -o CompilerMiniC lex.yy.c y.tab.c -ll	 
 
 lex.yy.c: practica.l
 	flex practica.l
